@@ -27,3 +27,7 @@ end
 15.times do |index|
 	gt = GossipTag.create!(gossip_id: (rand(Gossip.first.id..Gossip.last.id)), tag_id: (rand(Tag.first.id..Tag.last.id)))
 end
+
+10.times do |index|
+	pm = PrivateMessage.create!(content: Faker::StarWars.quote, sender_id: (rand(User.first.id..User.last.id)), recipient_id: (rand(User.first.id..User.last.id)))
+end
