@@ -1,24 +1,38 @@
-# README
+# THP Semaine 4 Jour 4
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Projet Free_doc la révolution de doctolib : 
 
-Things you may want to cover:
+Plateforme de réservations de docteurs
+1.1. Le pitch
 
-* Ruby version
+Tu veux concurrencer Doctolib, donc tu te dis : et si je créais un site qui fait la même chose ? 
 
-* System dependencies
 
-* Configuration
+## Sur Slack :
 
-* Database creation
+* Vincent Leparoux  slack/  @Vincelep :dolphin:
+* Nikolas Zwiller  slack  @Nico :chicken:
 
-* Database initialization
 
-* How to run the test suite
+## Lien vers tous les exos :
+* [DoctoLib](https://github.com/Vincelep/app_Free_Doc)
+* [AirbnDog](https://github.com/Vincelep/app_AirbnDog)
+* [Gossip project](https://github.com/Vincelep/app_Gossip_project)
+             
+                    
+## Etapes d'utilisation :
 
-* Services (job queues, cache servers, search engines, etc.)
+Pour pouvoir profiter des gems, n'oublie pas un petit :
+```
+   $> bundle install
+```
 
-* Deployment instructions
+Ensuite : 
+```
+   $> rails db:migrate
+```
 
-* ...
+Enfin : 
+```
+   $> rails db:seed
+```
